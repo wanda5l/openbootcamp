@@ -1,4 +1,4 @@
-public class ee {
+public class  {
     public static void main(String[] args){
         Persona persona = new Persona();
 
@@ -6,11 +6,12 @@ public class ee {
         persona.setNombre("Koga");
         persona.setTelefono(380477777);
 
-        System.out.println(persona.getEdad());
-        System.out.println(persona.getNombre());
-        System.out.println(persona.getTelefono());
+        System.out.println("Me llamo " + persona.getNombre());
+        System.out.println("Tengo " + persona.getEdad() + " años.");
+        System.out.println("Mi teléfono es " + persona.getTelefono());
 
     }
+}    
 
 static class Persona{
 
@@ -37,5 +38,4 @@ static class Persona{
         public int getTelefono() {
             return this.telefono;
         }
-}
 }
