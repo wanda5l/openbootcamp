@@ -1,4 +1,4 @@
-public class kola {
+public class herencia {
     public static void main(String[] args) {
         Cliente cliente = new Cliente();
         Trabajador trabajador = new Trabajador();
